@@ -18,8 +18,12 @@ How to create a virtual python environment:
 
 How to clone project to your virtual environment:
 
-```git clone https://github.com/JuicyS8da/AITU_Practice/````` `git clone https: // github.com/upicys8da/aitu_practice/` ``
+```git clone https://github.com/JuicyS8da/AITU_Practice/```
 
 Then you can successfully run my project
 
 ```python extract_and_insert.py```
+
+Here is the result
+![sqlite screen](https://github.com/user-attachments/assets/63769f52-861d-4a3a-952b-c8f9fbfaf32b)
+
