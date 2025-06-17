@@ -36,6 +36,6 @@ class Product:
         fields['currency'] = temp[temp.index('Price:') + 2].strip('.') if temp[temp.index('Price:') + 2] != '.' else 'Not specified'
         fields['country_origin'] = Product.extract_field(data, 'Origin:')
         fields['color'] = Product.extract_field(data, 'Color:')
-        fields['weight_g'] = Product.extract_field(data, 'Weight:')
+        fields['weight_g'] = Product.extract_field(data, 'Weight:').split(' ')[0] if 'Weight:' in data else 'Not specified'
         fields['product_code'] = Product.extract_field(data, 'Code:')
         return fields
